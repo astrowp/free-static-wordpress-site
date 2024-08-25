@@ -1,6 +1,10 @@
-First, add the following line before require_once(ABSPATH . 'wp-settings.php'); (usually located at the very bottom) to tell WordPress that the wp-content has changed to assets.
+# Rename wp-content folder
 
-For example, you can use 'assets' or 'media' instead. This example uses 'assets'.
+First, back up your site, then make this modification to the wp-config.php file.
+
+For example, you can use 'assets', 'files', or 'media'. This example uses 'assets'.
+
+Next, add the below line before require_once(ABSPATH . 'wp-settings.php'); (usually located at the very bottom) to tell WordPress that the wp-content has been renamed.
 
 ```define ('WP_CONTENT_FOLDERNAME', 'assets');```
 
