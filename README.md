@@ -47,6 +47,8 @@ Now, let's dive into a step-by-step guide on how to set all of this up and get y
 
 ## LocalWP
 
+![image](https://github.com/user-attachments/assets/ea1b2d5d-729e-4a16-9032-a72461a0f43c)
+
 **1. Install LocalWP on your local machine**
 
 First, [download LocalWP for free](https://localwp.com/). Choose the version that matches your operating system (Windows, macOS, or Linux). Once downloaded, run the installer and follow the on-screen instructions. LocalWP makes it super easy to set up a local development environment.
@@ -99,7 +101,7 @@ Choose a directory on your computer where you want to save the static files (e.g
 
 ## GitHub (Desktop)
 
-1. Git commit the local directory
+**1. Git commit the local directory**
 
 [Download GitHub Desktop](https://desktop.github.com/download/) and sign up for a free account.
 
@@ -113,7 +115,7 @@ Give your repository a name (e.g., 'my-static-site') and click 'Create Repositor
 
 GitHub Desktop will detect the files in the directory. Add a commit message like 'Initial static site build' and click 'Commit to main'.
 
-2. Publish to GitHub
+**2. Publish to GitHub**
 
 In GitHub Desktop, you'll see an option to 'Publish repository'. Click it.
 
@@ -125,7 +127,7 @@ Sign in to GitHub.com, go to the repositiory and check that the static files of 
 
 ## Deploy to Vercel, Netlify, or DigitalOcean
 
-1. Sign up for Vercel, Netlify, or DigitalOcean
+**1. Sign up for Vercel, Netlify, or DigitalOcean**
 
 You have several great options for hosting your static site for free:
 
@@ -135,13 +137,13 @@ DigitalOcean: [DigitalOcean signup link] - Offers more control and flexibility, 
 
 Choose the platform that best suits your needs and create a free account.
 
-2. Import the GitHub repository
+**2. Import the GitHub repository**
 
 Once you've signed up and logged in to your chosen platform, look for an option to 'Import Project' or 'New Site from Git'. Connect your GitHub account and select the repository you created ('my-static-site').
 
 These platforms are designed for easy static site deployment. They'll auto-detect your site's build settings and deploy it automatically. You'll get a live URL where you can access your site!
 
-3. Deploy
+**3. Deploy**
 
 Deploy your site. This might involve clicking a 'Deploy' button or following a simple wizard.
 
@@ -155,7 +157,7 @@ To use a custom domain (e.g., www.yourdomain.com), you'll need to follow the pla
 
 Here's how you can set up a system that (semi) automatically detects changes in your local directory and pushes them to GitHub.
 
-1. GitHub Desktop
+**GitHub Desktop**
 
 GitHub Desktop is a user-friendly application that can simplify this process significantly. Here's how you can use it:
 
