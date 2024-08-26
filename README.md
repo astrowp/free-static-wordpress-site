@@ -8,7 +8,7 @@
 | WordPress users looking to explore static site generation | SimplyStatic                               |
 | Students or hobbyists on a budget who want to build and host websites | GitHub (Desktop)                           |
 | Small business owners or bloggers seeking cost-effective website solutions | Vercel, Netlify or DigitalOcean App Platform |
-| Anyone curious about using tools like LocalWP, SimplyStatic, and GitHub for web development | LocalWP, SimplyStatic, GitHub              |
+| Anyone curious about using tools like LocalWP, SimplyStatic, and GitHub for web development |               |
 
 You don't need any prior experience with static site generators or advanced hosting platforms. This guide will walk you through the process step-by-step, making it accessible for those new to these concepts.
 
